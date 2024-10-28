@@ -1,5 +1,6 @@
 # 2D-Auto-Test-Bed
-<img src="/System Setup/system setup.jpg" width="1029" height="579">
+<img src="Test System/system setup_1.jpg" width="1029" height="579">
+
 ## Overview
 
 This project demonstrates a 2D testbed for precise movement across an X, Y mesh. It utilizes two stepper motors, two motor drivers, six sensors (three per axis), and an MSP430F5529 microcontroller. MATLAB is used to send control signals via UART to drive the motors in both directions.
@@ -11,6 +12,7 @@ This project demonstrates a 2D testbed for precise movement across an X, Y mesh.
 - **Sensors**: 6 sensors in total, with 3 dedicated to each axis (X and Y):
   - **1 Initial Position Sensor**: Detects the motor’s initial reference position.
   - **2 Safety Sensors**: Set safety limits, preventing the motor from moving beyond defined boundaries.
+  <img src="Test System/Schematic Diagram.png" width="1029" height="579">
   
 ## System Workflow
 
@@ -19,4 +21,4 @@ This project demonstrates a 2D testbed for precise movement across an X, Y mesh.
 3. **Safety Mechanism**: During movement, the safety sensors continuously monitor the motor's position to stop it from exceeding the safe limits.
 4. **Control Feedback**: The motor movements are adjusted in real time based on feedback that send by the MCU after each step of the movement of the motor to ensure precise control and positioning.
 
-
+[![Watch the video](https://raw.githubusercontent.com/Afkar-MI/2D-Auto-Test-Bed/blob/master/Test%20System/system%20setup_1.jpg)](https://raw.githubusercontent.com/Afkar-MI/2D-Auto-Test-Bed/blob/master/Test%20System/2D%20Test%20Bed.mp4)
