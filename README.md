@@ -21,4 +21,5 @@ This project demonstrates a 2D testbed for precise movement across an X, Y mesh.
 3. **Safety Mechanism**: During movement, the safety sensors continuously monitor the motor's position to stop it from exceeding the safe limits.
 4. **Control Feedback**: The motor movements are adjusted in real time based on feedback that send by the MCU after each step of the movement of the motor to ensure precise control and positioning.
 
-[![Watch the video](https://raw.githubusercontent.com/Afkar-MI/2D-Auto-Test-Bed/master/Test System/system setup_1.png)](https://raw.githubusercontent.com/Afkar-MI/2D-Auto-Test-Bed/master/2D Test Bed.mp4)
+[![Watch the video]
+(https://raw.githubusercontent.com/Afkar-MI/2D-Auto-Test-Bed/master/Test%20System/system_setup_1.png)](https://raw.githubusercontent.com/Afkar-MI/2D-Auto-Test-Bed/master/Test%20System/2D_Test_Bed.mp4)
